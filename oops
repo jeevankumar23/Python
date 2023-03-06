@@ -27,12 +27,12 @@ print(obj.c)
 ************************************
 
 #private
+
 class encap:
     __a=10
     print(__a)
     def encapfunction(self):
-     _b=200
-    print("Encap function-accessing protected")
+    print("Encap function")
     print(self.__a)
 obj=encap()
 obj.encapfunction()
